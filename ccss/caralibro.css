@@ -1,0 +1,65 @@
+#login 
+{
+    padding:20px 0px;background-color:#3b5998;
+    
+    font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size:11px;
+    
+}
+#login input[type=text],#login input[type=password] 
+{
+    width:170px;
+    border:1px solid #000;
+}
+#login input[type=checkbox] 
+{
+    margin:auto;
+    vertical-align:top;
+}
+#login input[type=submit] 
+{
+    font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size:11px;
+    cursor:pointer;color:#fff;
+    font-weight:bold;line-height:13px;
+    background-color:#5b74a8;
+    padding:3px 5px;
+    border:1px solid;
+    border-color: #29447e #29447e #1a356e;
+}
+.wrapper        
+{
+    clear:both;
+}
+.wrapper>div    
+{
+    float:left;
+    width:190px;
+    padding:0px 10px;
+}
+.wrapper .button
+{
+    width:50px;
+}
+.titulo         
+{
+    color:#fff;
+}
+.texto          
+{
+    color:#98a9ca;
+}
+.texto a        
+{
+    color:#98a9ca;
+    text-decoration:none;
+}
+
+span.uno
+{
+    font-size:45px; 
+    position: absolute; 
+    left: 180px;  
+    color: white;
+    top: 3.5%;
+}

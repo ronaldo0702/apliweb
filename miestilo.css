@@ -1,0 +1,59 @@
+body
+{
+    background-color: darkgray;
+}
+.azul { color: blue;}
+.rojo {color: red;}
+.verde {color: green;}
+.amarillo {color: yellow;}
+.morado {color: purple;}
+.cafe {color: brown;}
+.marron {color:burlywood;}
+.purpura {color: firebrick;}
+.crema {color: navy;}
+
+h1{
+    font-size: 20px;
+    color: blue;
+}
+p{
+    color: red;
+}
+
+.cuadro
+{
+    border: 5px solid black;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin-left: 30px;
+}
+/*
+.cuadro:last-of-type
+{
+    background-color: red;
+}
+/*
+.cuadro:first-of-type
+{
+    background-color: blueviolet;
+}
+
+.cuadro:nth-of-type(even)
+{
+background-color: brown
+}
+
+.cuadro:nth-of-type(1),.cuadro:nth-of-type(8),.cuadro:nth-of-type(33),.cuadro:nth-of-type(40)
+{
+    background-color: black;
+}
+.cuadro:nth-child
+{
+    background-color: navy;
+}*/
+
+.cuadro[for="renglon"]
+{
+    background-color: blue;
+}

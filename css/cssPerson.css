@@ -1,0 +1,23 @@
+body{
+    background: black;
+    background-size: cover;
+}
+
+.menuColor{
+    background-color:black!important;
+}
+.trasparente{
+    background-color: transparent !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+img.mediana{
+    width: 100%; height: 100%;
+}
+.card > img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 25rem;
+  }
