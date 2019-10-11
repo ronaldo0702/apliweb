@@ -1,0 +1,9 @@
+
+.cuadro
+{
+    border: 5px solid black;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin-left: 30px;
+}
