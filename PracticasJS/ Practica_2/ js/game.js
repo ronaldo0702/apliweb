@@ -1,5 +1,3 @@
-// Definimos las variables globales que vamos a utilizar
-// durante nuestra partida.
 
 var words = [['ordenador'], ['videojuego'], ['playstation'], 
 ['mesa'], ['shogo'], ['timesplitters'], ['colina'], ['didacta'], 
@@ -11,7 +9,7 @@ var count = 3;
 var count_fails = 1;
 
 // Se coge una palabra de forma aleatoria del Array words para el juego
-function generateWord() {
+function generateWord() 
     var total_words = words.length - 1;
     rand = (Math.random() * total_words).toFixed(0);
     word = words[rand][0].toUpperCase();
